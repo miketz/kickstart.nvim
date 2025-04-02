@@ -436,6 +436,11 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader>b', builtin.buffers, { desc = '[ ] Find existing buffers' })
       vim.keymap.set('n', '<leader><leader>', vim.cmd.only, { desc = '[,] only' })
       vim.keymap.set('n', '<leader>d', vim.cmd.close, { desc = '[d] close' })
+      vim.keymap.set('n', '<C-l>', 'zz', { desc = '[l] center-zz' })
+      vim.keymap.set('n', '<C-x>2', vim.cmd.split, { desc = 'split' })
+      vim.keymap.set('n', '<C-x>3', vim.cmd.vsplit, { desc = 'vsplit' })
+      vim.keymap.set('n', '<leader>2', vim.cmd.split, { desc = '[2]split' })
+      vim.keymap.set('n', '<leader>3', vim.cmd.vsplit, { desc = '[3]vsplit' })
 
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set('n', '<leader>/', function()
