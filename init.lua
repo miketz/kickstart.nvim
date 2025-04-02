@@ -1036,7 +1036,7 @@ vim.keymap.set('i', 'jf', '<Esc>')
 vim.keymap.set('v', 'fj', '<Esc>')
 vim.keymap.set('v', 'jf', '<Esc>')
 
--- have working dir following current file dir. Like Emacs.
+-- have working dir follow current file dir. Like Emacs.
 vim.opt.autochdir = true
 
 -- The line beneath this is called `modeline`. See `:help modeline`
