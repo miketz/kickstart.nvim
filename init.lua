@@ -435,6 +435,7 @@ require('lazy').setup({
       --vim.keymap.set('n', '<leader><leader>', builtin.buffers, { desc = '[ ] Find existing buffers' })
       vim.keymap.set('n', '<leader>b', builtin.buffers, { desc = '[ ] Find existing buffers' })
       vim.keymap.set('n', '<leader><leader>', vim.cmd.only, { desc = '[,] only' })
+      vim.keymap.set('n', '<leader>d', vim.cmd.close, { desc = '[d] close' })
 
       -- Slightly advanced example of overriding default behavior and theme
       vim.keymap.set('n', '<leader>/', function()
