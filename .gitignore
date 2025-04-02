@@ -4,4 +4,5 @@ test.sh
 nvim
 
 spell/
-lazy-lock.json
+# per docs do not ingore lazy-lock.json in personal config
+# lazy-lock.json
