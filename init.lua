@@ -442,6 +442,11 @@ require('lazy').setup({
       vim.keymap.set('n', '<leader><leader>', vim.cmd.only, { desc = '[,] only' })
       vim.keymap.set('n', '<leader>d', vim.cmd.close, { desc = '[d] close' })
       vim.keymap.set('n', '<C-l>', 'zz', { desc = '[l] center-zz' })
+      --C-v scrolling doesn't work?
+      --vim.keymap.set('n', '<C-v>', '<C-f>', { desc = 'C-f' })
+      --vim.keymap.set('n', '<M-v>', '<C-b>', { desc = 'C-b' })
+      vim.keymap.set('n', '<M-<>', 'gg', { desc = 'gg' })
+      vim.keymap.set('n', '<M->>', 'G', { desc = 'G' })
       vim.keymap.set('n', '<C-x>2', vim.cmd.split, { desc = 'split' })
       vim.keymap.set('n', '<C-x>3', vim.cmd.vsplit, { desc = 'vsplit' })
       vim.keymap.set('n', '<leader>2', vim.cmd.split, { desc = '[2]split' })
