@@ -1056,6 +1056,7 @@ vim.keymap.set('v', 'jf', '<Esc>')
 
 -- have working dir follow current file dir. Like Emacs.
 vim.opt.autochdir = true
+vim.opt.tabstop = 4
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
