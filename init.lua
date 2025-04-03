@@ -933,6 +933,17 @@ require('lazy').setup({
       -- vim.cmd.colorscheme 'tokyonight-night'
     end,
   },
+  {
+    'vague2k/vague.nvim',
+    config = function()
+      -- NOTE: you do not need to call setup if you don't want to.
+      require('vague').setup {
+        -- optional configuration here
+      }
+    end,
+  },
+  { 'jnurmine/Zenburn' },
+  { 'EdenEast/nightfox.nvim' },
 
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
@@ -1048,7 +1059,7 @@ require('lazy').setup({
   },
 })
 
-vim.cmd.colorscheme 'minicyan'
+vim.cmd.colorscheme 'dayfox'
 -- use "fj" combo to go back to normal mode
 vim.keymap.set('i', 'fj', '<Esc>')
 vim.keymap.set('i', 'jf', '<Esc>')
