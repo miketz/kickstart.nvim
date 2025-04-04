@@ -1059,7 +1059,7 @@ require('lazy').setup({
   },
 })
 
-vim.cmd.colorscheme 'dayfox'
+vim.cmd.colorscheme 'zenburn'
 -- use "fj" combo to go back to normal mode
 vim.keymap.set('i', 'fj', '<Esc>')
 vim.keymap.set('i', 'jf', '<Esc>')
