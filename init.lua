@@ -942,7 +942,7 @@ require('lazy').setup({
       }
     end,
   },
-  { 'jnurmine/Zenburn' },
+  { 'phha/zenburn.nvim' },
   { 'EdenEast/nightfox.nvim' },
 
   -- Highlight todo, notes, etc in comments
