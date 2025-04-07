@@ -942,8 +942,32 @@ require('lazy').setup({
       }
     end,
   },
+
+  {
+    'https://gitlab.com/bartekjaszczak/luma-nvim',
+    priority = 1000,
+    --config = function()
+    --require('luma').setup {
+    --  theme = 'dark', -- "dark" or "light" theme
+    --  contrast = 'medium', -- "low", "medium" or "high" contrast
+    --}
+
+    -- Activate the theme
+    --vim.cmd.colorscheme 'luma'
+    --end,
+  },
   { 'phha/zenburn.nvim' },
   { 'EdenEast/nightfox.nvim' },
+  { 'nyoom-engineering/oxocarbon.nvim' },
+  { 'marko-cerovac/material.nvim' },
+  { 'qaptoR-nvim/chocolatier.nvim' },
+  { 'Verf/deepwhite.nvim' },
+  { 'ribru17/bamboo.nvim' },
+  { 'ptdewey/darkearth-nvim' },
+  { 'scottmckendry/cyberdream.nvim' },
+  { 'rebelot/kanagawa.nvim' },
+  { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
+  { 'navarasu/onedark.nvim' },
 
   -- Highlight todo, notes, etc in comments
   --{ 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
@@ -1059,7 +1083,7 @@ require('lazy').setup({
   },
 })
 
-vim.cmd.colorscheme 'zenburn'
+vim.cmd.colorscheme 'kanagawa-dragon'
 -- use "fj" combo to go back to normal mode
 vim.keymap.set('i', 'fj', '<Esc>')
 vim.keymap.set('i', 'jf', '<Esc>')
