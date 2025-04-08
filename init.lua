@@ -1083,7 +1083,7 @@ require('lazy').setup({
   },
 })
 
-vim.cmd.colorscheme 'kanagawa-dragon'
+vim.cmd.colorscheme 'bamboo'
 -- use "fj" combo to go back to normal mode
 vim.keymap.set('i', 'fj', '<Esc>')
 vim.keymap.set('i', 'jf', '<Esc>')
