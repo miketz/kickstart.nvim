@@ -968,6 +968,8 @@ require('lazy').setup({
   { 'rebelot/kanagawa.nvim' },
   { 'catppuccin/nvim', name = 'catppuccin', priority = 1000 },
   { 'navarasu/onedark.nvim' },
+  { 'craftzdog/solarized-osaka.nvim', lazy = false, priority = 1000, opts = {} },
+  { 'sainnhe/edge' },
 
   -- Highlight todo, notes, etc in comments
   --{ 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
